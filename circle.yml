@@ -5,6 +5,6 @@ machine:
     version: 2.3.1
 test:
   pre:
-    - echo before test@@@@@@@@@@@@@@@@@@@ :smile:
+    - echo before test@@@@@@@@@@@@@@@@@@@
   post:
-    - echo after test@@@@@@@@@@@@@@@@@@@ :smile:
+    - echo after test@@@@@@@@@@@@@@@@@@@
