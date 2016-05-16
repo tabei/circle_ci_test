@@ -13,4 +13,3 @@ deployment:
     branch: master
     commands:
       - echo deploy to staging
-          timeout: 1500
