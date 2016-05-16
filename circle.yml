@@ -4,8 +4,12 @@ machine:
   ruby:
     version: 2.3.1
 test:
-  branch: master
   pre:
     - echo before test@@@@@@@@@@@@@@@@@@@
   post:
     - echo after test@@@@@@@@@@@@@@@@@@@
+deployment:
+  staging:
+    branch: master
+    commands:
+      - echo deploy to staging
