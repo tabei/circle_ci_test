@@ -3,3 +3,6 @@ machine:
     Asia/Tokyo
   ruby:
     version: 2.3.1
+test:
+  post:
+    - rspec
