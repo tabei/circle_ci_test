@@ -6,6 +6,8 @@ machine:
 test:
   pre:
     - echo before test@@@@@@@@@@@@@@@@@@@
+  override:
+    - bundle exec rspec -r rspec_junit_formatter --format RspecJunitFormatter -o $CIRCLE_TEST_REPORTS/rspec/junit.xml
   post:
     - echo after test@@@@@@@@@@@@@@@@@@@
 deployment:
